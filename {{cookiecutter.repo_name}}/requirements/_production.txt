@@ -1,0 +1,9 @@
+# Pro-tip: Try not to put anything here. There should be no dependency in
+#	production that isn't in development.
+-r base.txt
+
+django-storages==1.1.8
+uWSGI==2.0.7
+pylibmc==1.3.0
+Collectfast==0.2.0
+boto==2.32.1

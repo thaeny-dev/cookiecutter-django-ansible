@@ -1,7 +1,7 @@
 ---
-common_ubuntu_release: trusty
+common_ubuntu_release: bionic
 common_pkg:
-  - python-software-properties
+  - software-properties-common
   - build-essential
   - git-core
   - unattended-upgrades

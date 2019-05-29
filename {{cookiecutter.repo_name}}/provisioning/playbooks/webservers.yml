@@ -8,6 +8,6 @@
     - { role: uwsgi }
     - { role: nginx }
     - { role: redis }
-    - { role: rabbitmq }
-    - { role: celery }
+#    - { role: rabbitmq }
+#    - { role: celery }
 {% endraw %}
